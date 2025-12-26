@@ -52,7 +52,7 @@ main {
   padding: 50px 40px;
 
   background: linear-gradient(rgba(0, 0, 0, 0.8)),
-    url("/img/backgrounds/code.jpg");
+    url("../img/backgrounds/code.jpg");
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
