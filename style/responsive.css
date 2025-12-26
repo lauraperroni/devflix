@@ -1,0 +1,60 @@
+@media screen and (max-width: 760px) {
+  header .container {
+    flex-direction: column;
+  }
+
+  header nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main-course {
+    align-items: center;
+    text-align: center;
+  }
+
+  .main-course .container .description {
+    align-items: center;
+    text-align: center;
+    width: 100%
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .button {
+    margin-top: 5px;
+  }
+
+  .carousel .box-course {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    margin: 0px;
+  }
+
+  header .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-course .container .title {
+    font-size: 30px;
+  }
+
+  .main-course .container .description {
+    margin: 10px 0px;
+    font-size: 14px;
+  }
+}
+
